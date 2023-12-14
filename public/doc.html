@@ -161,12 +161,17 @@
                     var color4 = document.createElement('td');
                     var color5 = document.createElement('td');
 
-                    // Access color values using the correct keys
                     color1.innerHTML = data[i]["Color 1"];
                     color2.innerHTML = data[i]["Color 2"];
                     color3.innerHTML = data[i]["Color 3"];
                     color4.innerHTML = data[i]["Color 4"];
                     color5.innerHTML = data[i]["Color 5"];
+
+                    color1.style.padding = '8px';
+                    color2.style.padding = '8px';
+                    color3.style.padding = '8px';
+                    color4.style.padding = '8px';
+                    color5.style.padding = '8px';
 
                     colorRow.appendChild(color1);
                     colorRow.appendChild(color2);
