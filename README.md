@@ -18,6 +18,8 @@ Start the web application: npm start
 
 Stop the web application: CTRL + C in your terminal
 
+Used Express.js and Supabase
+
 API: https://www.colr.org/api.html
 
 Known Bugs: None! (that i know of)

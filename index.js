@@ -6,7 +6,6 @@ const port = 4000
 
 app.use(bodyParser.json())
 
-// this allows us to use all files in the public folder
 app.use(express.static(__dirname + '/public'))
 
 const supabaseUrl = 'https://mptzzikzkqeoyxjdlqxz.supabase.co'
@@ -28,6 +27,7 @@ app.get("/doc", (req, res) => {
     res.sendFile("public/doc.html", { root: __dirname })
 })
 
+// GET for the get saved palettes API endpoint
 app.get('/getsavedpalettes', async (req, res) => {
     try {
       const { data, error } = await supabase.from('Saved Palettes').select();
@@ -41,6 +41,7 @@ app.get('/getsavedpalettes', async (req, res) => {
     }
   });
 
+// POST for the saved palettes API endpoint
 app.post('/savedpalettes', async (req, res) => {
     const colorPalette = req.body;
     console.log('Received color palette:', colorPalette);
@@ -65,8 +66,10 @@ app.post('/savedpalettes', async (req, res) => {
         }
 
         console.log('Data inserted into Supabase:', data);
+
         res.header('Content-type', 'application/json');
         res.json(data);
+
     } catch (error) {
         console.error('Error processing Supabase request:', error);
         res.status(500).json({ error: 'Internal Server Error' });
