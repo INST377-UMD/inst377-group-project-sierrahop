@@ -6,7 +6,7 @@ Description: This project aims to solve the issue of creative block when it come
 
 Target Browsers: Google Chrome, Safari
 
-Link to User Manual:
+[Link to User Manual](https://github.com/INST377-UMD/inst377-group-project-sierrahop/blob/main/docs/UserManual.md)
 
 [Link to Developer Manual](https://github.com/sierrahop/inst377-group-project?tab=readme-ov-file#developer-manual)
 
