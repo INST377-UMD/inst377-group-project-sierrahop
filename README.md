@@ -22,6 +22,10 @@ Used Express.js and Supabase
 
 API: https://www.colr.org/api.html
 
+    POST /savedpalettes -> saves currently viewed color palette to an external database
+
+    GET /getsavedpalettes -> gets saved palettes from external database
+
 Known Bugs: None! (that i know of)
 
 Road-Map: Future developments will center around allowing users to generate color palettes based on specific inputs and colors that they already want.
