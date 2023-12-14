@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About</title>
+<style>
+	/* Color Scheme: #404041 - blackish gray, #F6EDE3 - pinkish white, #D3CAE2 - light purple */
+	body {
+		background-color:#404041;
+		font-family: 'Courier New', monospace;
+	}
+	.top {
+		text-align:center;
+		padding:10px;
+		background-color:#404041;
+		color:#D3CAE2;
+		width:100%;
+		margin:-10px;
+		padding-bottom: -5px;
+	}
+	nav {
+		background-color:#F6EDE3;
+		padding:10px;
+		border-radius:10px;
+		color:#404041;
+		box-shadow: 2px 3px 3px black;
+	}
+	a {
+		color:#404041;
+		text-decoration:none;
+		font-weight:normal;
+	}
+	a:hover {
+		color:#D49D35;
+		font-weight:bold;
+	}
+	footer {
+		background-color:#404041;
+		color:#F6EDE3;
+		text-align:center;
+		position:fixed;
+		bottom:0;
+		width:100%;
+		margin:-8px;
+	}
+	.about {
+		background-color:#F6EDE3;
+		padding:20px;
+		border-radius:10px;
+		box-shadow: 2px 3px 3px black;
+		text-align:center;
+		width:60%;
+		margin-top:40px;
+		margin-left:19%;
+	}
+</style>
+</head>
+
+<body>
+	<section class="top">
+		
+		<h1>Color Block</h1>
+
+		<nav>
+			<a href="index.html">App</a> |
+			<a href="doc.html">Saved Palettes</a> |
+			<a href="about.html">About</a>
+		</nav>
+		<h3>*about</h3>
+	</section>
+	
+	<section class="about">
+		<p>This project aims to solve the issue of creative block when it comes to choosing color schemes in design.</p>
+		<h4>** Some stakeholders include: **</h4>
+		<p>UX/UI Designers, Web Designers, Artists, Social Media Content Creators, and more!</p>
+		<p>With this project, these stakeholders will be able to jumpstart/further their creative process through the visualization of 6 randomly generated cohesive colors that will be then used as the webpage's color scheme in order to provide a visual example. Each time the user presses the 'Generate Color Palette' button, each color, along with its HEX code, will appear in the appropriate color box, as well as be applied to the different CSS elements on the page. Each press of this button will generate a new set of colors.</p>
+	</section>
+	
+	<!--script to add fun cursor effect!-->
+	<script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
+	<script>
+		options = {
+			"cursorOuter": "circle-basic",
+			"hoverEffect": "circle-move",
+			"hoverItemMove": false,
+			"defaultCursor": false,
+			"outerWidth": 30,
+			"outerHeight": 30
+		};
+		
+		magicMouse(options);
+	</script>
+</body>
+</html>
