@@ -22,7 +22,7 @@ Used Express.js and Supabase
 
 API: https://www.colr.org/api.html
 
-    POST /savedpalettes -> saves currently viewed color palette to an external database
+    POST /savedpalettes -> saves color palette to an external database
 
     GET /getsavedpalettes -> gets saved palettes from external database
 
