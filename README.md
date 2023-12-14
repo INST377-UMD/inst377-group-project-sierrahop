@@ -20,6 +20,6 @@ Stop the web application: CTRL + C in your terminal
 
 API: https://www.colr.org/api.html
 
-Known Bugs:
+Known Bugs: None! (that i know of)
 
-Road-Map:
+Road-Map: Future developments will center around allowing users to generate color palettes based on specific inputs and colors that they already want.
