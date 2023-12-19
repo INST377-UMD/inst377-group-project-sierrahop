@@ -4,6 +4,8 @@ Project Title: Color Block
 
 Description: This project aims to solve the issue of creative block when it comes to picking color schemes for designers, particularly web designers. It uses the Colr.org API to randomly generate colors that work well together, and applies them to the website, in order to provide a visual example.
 
+Work done individually, group member did not contribute at all.
+
 Target Browsers: Google Chrome, Safari
 
 [Link to User Manual](https://github.com/INST377-UMD/inst377-group-project-sierrahop/blob/main/docs/UserManual.md)
