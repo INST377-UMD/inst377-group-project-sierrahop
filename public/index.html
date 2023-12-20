@@ -416,9 +416,9 @@
 				 response.json()
 				 )
 			.then(data => {
-				 const colors = data.schemes[0].colors;
+				const colors = data.schemes[0].colors;
 
-                 for (let i = 0; i < 6; i++) {
+                for (let i = 0; i < 6; i++) {
 					const colorHex = colors[i];
 					const colorBox = document.getElementById("color" + (i + 1));
 					const hexCodeElement = colorBox.querySelector('p');
